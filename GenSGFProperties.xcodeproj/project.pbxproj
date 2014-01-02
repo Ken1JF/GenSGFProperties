@@ -1,0 +1,233 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE9A14D21874FED6009E360D /* GenSGFProperties.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE9A14D11874FED6009E360D /* GenSGFProperties.1 */; };
+		BE9A14DE1874FF3D009E360D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE9A14D81874FF3D009E360D /* main.cpp */; };
+		BE9A14DF1874FF3D009E360D /* SGF_File.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE9A14DA1874FF3D009E360D /* SGF_File.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BE9A14CA1874FED6009E360D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				BE9A14D21874FED6009E360D /* GenSGFProperties.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BE9A14CC1874FED6009E360D /* GenSGFProperties */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GenSGFProperties; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE9A14D11874FED6009E360D /* GenSGFProperties.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = GenSGFProperties.1; sourceTree = "<group>"; };
+		BE9A14D81874FF3D009E360D /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		BE9A14D91874FF3D009E360D /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
+		BE9A14DA1874FF3D009E360D /* SGF_File.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SGF_File.cpp; sourceTree = "<group>"; };
+		BE9A14DB1874FF3D009E360D /* SGF_File.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGF_File.h; sourceTree = "<group>"; };
+		BE9A14DC1874FF3D009E360D /* SGF_Properties_Spec.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SGF_Properties_Spec.txt; sourceTree = "<group>"; };
+		BE9A14DD1874FF3D009E360D /* SGF_Property_gen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGF_Property_gen.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE9A14C91874FED6009E360D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE9A14C31874FED6009E360D = {
+			isa = PBXGroup;
+			children = (
+				BE9A14D81874FF3D009E360D /* main.cpp */,
+				BE9A14D91874FF3D009E360D /* ReadMe.txt */,
+				BE9A14DA1874FF3D009E360D /* SGF_File.cpp */,
+				BE9A14DB1874FF3D009E360D /* SGF_File.h */,
+				BE9A14DC1874FF3D009E360D /* SGF_Properties_Spec.txt */,
+				BE9A14DD1874FF3D009E360D /* SGF_Property_gen.h */,
+				BE9A14CE1874FED6009E360D /* GenSGFProperties */,
+				BE9A14CD1874FED6009E360D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE9A14CD1874FED6009E360D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE9A14CC1874FED6009E360D /* GenSGFProperties */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE9A14CE1874FED6009E360D /* GenSGFProperties */ = {
+			isa = PBXGroup;
+			children = (
+				BE9A14D11874FED6009E360D /* GenSGFProperties.1 */,
+			);
+			path = GenSGFProperties;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE9A14CB1874FED6009E360D /* GenSGFProperties */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE9A14D51874FED6009E360D /* Build configuration list for PBXNativeTarget "GenSGFProperties" */;
+			buildPhases = (
+				BE9A14C81874FED6009E360D /* Sources */,
+				BE9A14C91874FED6009E360D /* Frameworks */,
+				BE9A14CA1874FED6009E360D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GenSGFProperties;
+			productName = GenSGFProperties;
+			productReference = BE9A14CC1874FED6009E360D /* GenSGFProperties */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE9A14C41874FED6009E360D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Ken Friedenbach";
+			};
+			buildConfigurationList = BE9A14C71874FED6009E360D /* Build configuration list for PBXProject "GenSGFProperties" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BE9A14C31874FED6009E360D;
+			productRefGroup = BE9A14CD1874FED6009E360D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE9A14CB1874FED6009E360D /* GenSGFProperties */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE9A14C81874FED6009E360D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE9A14DE1874FF3D009E360D /* main.cpp in Sources */,
+				BE9A14DF1874FF3D009E360D /* SGF_File.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BE9A14D31874FED6009E360D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BE9A14D41874FED6009E360D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BE9A14D61874FED6009E360D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BE9A14D71874FED6009E360D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE9A14C71874FED6009E360D /* Build configuration list for PBXProject "GenSGFProperties" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE9A14D31874FED6009E360D /* Debug */,
+				BE9A14D41874FED6009E360D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE9A14D51874FED6009E360D /* Build configuration list for PBXNativeTarget "GenSGFProperties" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE9A14D61874FED6009E360D /* Debug */,
+				BE9A14D71874FED6009E360D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE9A14C41874FED6009E360D /* Project object */;
+}
