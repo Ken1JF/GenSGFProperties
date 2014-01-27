@@ -12,7 +12,7 @@ Description:
 	and an address array in sorted order, for binary search.
 
 	The program reads a data file:
-		SGF_Properties_Spec.txt
+		sgf_properties_spec.txt
 	which was derived from the webpage:
 		http://www.red-bean.com/sgf/proplist.html
 	and writes a header file:
@@ -34,7 +34,7 @@ Description:
 
 Status: January 1, 2014
 
-    Moved in abst-hier workspace, for upload to gitHub.com/Ken1JF
+    Moved in abst-hier workspace, for upload to github.com/Ken1JF
     Also cleaned up code to correct errors confusing size_t and int.
     
 Status: October 5, 2009

@@ -8,7 +8,7 @@
  *	This program reads the property list data from:
  *		http://www.red-bean.com/sgf/proplist.html
  *	which was cut and paste into the input file:
- *		SGF_Properties_Spec.txt
+ *		sgf_properties_spec.txt
  *	with the change of "-" into "--" in the property type column,
  *	to remove ambiguities with other uses of "-".
  *
@@ -36,10 +36,10 @@ const char *  Time		= __TIME__;
 
 // executable is placed in XCODE temporary space so 
 // so the data file should be found by full path name:
-const char * dataname	= "/Users/ken/Projects/abst-hier/src/gitHub.com/Ken1JF/GenSGFProperties/SGF_Properties_Spec.txt";
+const char * dataname	= "/Users/ken/Projects/abst-hier/src/github.com/Ken1JF/GenSGFProperties/sgf_properties_spec.txt";
 
 // and place the output file in the project directory:
-const char * filename	= "/Users/ken/Projects/abst-hier/src/gitHub.com/Ken1JF/GenSGFProperties/SGF_Property_gen.h";
+const char * filename	= "/Users/ken/Projects/abst-hier/src/github.com/Ken1JF/GenSGFProperties/SGF_Property_gen.h";
 
 int numProperties = 0;
 
@@ -52,7 +52,7 @@ static size_t max_Property_type_qualifier_length	= 1;
 static size_t max_Property_value_length             = 1;
 static size_t max_Property_note_length              = 1;
 
-// These strings are found in the "source" document: SGF_Properties_Spec.txt
+// These strings are found in the "source" document: sgf_properties_spec.txt
 // The order of the strings, corresponds to the enum definitions, and the _names[] arrays,
 // which are found in include file "SGF_File.h"
 const char * SGF_qualifier_strings[] =
@@ -75,7 +75,7 @@ const char * SGF_property_strings[] =
 	NULL
 };
 
-// an array of the value strings found in the SGF_Properties_Spec.txt file
+// an array of the value strings found in the sgf_properties_spec.txt file
 const char * SGF_value_strings[] =
 {
 	"none | composed number \":\" simpletext",
