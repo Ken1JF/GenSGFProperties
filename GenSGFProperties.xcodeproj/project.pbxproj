@@ -30,7 +30,7 @@
 		BE9A14D11874FED6009E360D /* GenSGFProperties.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = GenSGFProperties.1; sourceTree = "<group>"; };
 		BE9A14D81874FF3D009E360D /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = main.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
 		BE9A14D91874FF3D009E360D /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; lineEnding = 0; path = ReadMe.txt; sourceTree = "<group>"; };
-		BE9A14DA1874FF3D009E360D /* SGF_File.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SGF_File.cpp; sourceTree = "<group>"; };
+		BE9A14DA1874FF3D009E360D /* SGF_File.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = SGF_File.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
 		BE9A14DB1874FF3D009E360D /* SGF_File.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGF_File.h; sourceTree = "<group>"; };
 		BE9A14DC1874FF3D009E360D /* SGF_Properties_Spec.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SGF_Properties_Spec.txt; sourceTree = "<group>"; };
 		BE9A14DD1874FF3D009E360D /* SGF_Property_gen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = SGF_Property_gen.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
